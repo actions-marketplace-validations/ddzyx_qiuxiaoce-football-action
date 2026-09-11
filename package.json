@@ -1,0 +1,27 @@
+{
+  "name": "qiuxiaoce-football-action",
+  "version": "1.0.0",
+  "description": "GitHub Action to automatically fetch and embed live football standings into your GitHub Profile or repository README.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "github-action",
+    "football",
+    "soccer",
+    "standings",
+    "premier-league",
+    "la-liga",
+    "readme",
+    "profile-readme",
+    "qiuxiaoce"
+  ],
+  "author": "QiuXiaoCe Team <contact@qiuxiaoce.com> (https://www.qiuxiaoce.com)",
+  "license": "MIT",
+  "homepage": "https://www.qiuxiaoce.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddzyx/qiuxiaoce-football-action.git"
+  }
+}
