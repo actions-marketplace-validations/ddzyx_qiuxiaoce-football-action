@@ -1,0 +1,24 @@
+name: 'QiuXiaoCe Football Standings'
+description: 'Automatically fetch and embed live football standings (Premier League, La Liga, Serie A, etc.) into your README.'
+author: 'QiuXiaoCe (https://www.qiuxiaoce.com)'
+branding:
+  icon: 'activity'
+  color: 'green'
+
+inputs:
+  league_id:
+    description: 'League ID to fetch (39 for Premier League, 140 for La Liga, 135 for Serie A, 78 for Bundesliga, 61 for Ligue 1)'
+    required: false
+    default: '39'
+  target_file:
+    description: 'Target Markdown file to update (e.g., README.md)'
+    required: false
+    default: 'README.md'
+  top_n:
+    description: 'Number of top teams to display in standings table'
+    required: false
+    default: '10'
+
+runs:
+  using: 'node20'
+  main: 'index.js'
